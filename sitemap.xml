@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://nly-xiaoyu.github.io.git/2021/09/26/library/</loc>
+    
+    <lastmod>2021-09-26</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://nly-xiaoyu.github.io.git/2021/09/26/github/</loc>
     
     <lastmod>2021-09-26</lastmod>
@@ -108,6 +115,13 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://nly-xiaoyu.github.io.git/tags/library/</loc>
+    <lastmod>2021-09-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>
@@ -126,6 +140,20 @@
   
   <url>
     <loc>https://nly-xiaoyu.github.io.git/categories/srping/</loc>
+    <lastmod>2021-09-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nly-xiaoyu.github.io.git/categories/github/</loc>
+    <lastmod>2021-09-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nly-xiaoyu.github.io.git/categories/demo/</loc>
     <lastmod>2021-09-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

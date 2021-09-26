@@ -6,7 +6,7 @@
   <link href="https://nly-xiaoyu.github.io.git/atom.xml" rel="self"/>
   
   <link href="https://nly-xiaoyu.github.io.git/"/>
-  <updated>2021-09-26T08:40:37.565Z</updated>
+  <updated>2021-09-26T14:53:22.544Z</updated>
   <id>https://nly-xiaoyu.github.io.git/</id>
   
   <author>
@@ -17,28 +17,50 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>library开发过程</title>
+    <link href="https://nly-xiaoyu.github.io.git/2021/09/26/library/"/>
+    <id>https://nly-xiaoyu.github.io.git/2021/09/26/library/</id>
+    <published>2021-09-26T13:42:40.897Z</published>
+    <updated>2021-09-26T14:53:22.544Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="建表"><a href="#建表" class="headerlink" title="建表"></a>建表</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">用户表 t_user</span><br></pre></td></tr></table></figure><h2 id="环境的配属"><a href="#环境的配属" class="headerlink" title="环境的配属"></a>环境的配属</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">通过逆向工程生成bean对象 持久层mapper</span><br><span class="line">引入layuiadmin前端模板</span><br></pre></td></tr></table></figure><h2 id="注册功能的实现"><a href="#注册功能的实现" class="headerlink" title="注册功能的实现"></a>注册功能的实现</h2><h3 id="服务层"><a href="#服务层" class="headerlink" title="服务层"></a>服务层</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">构建t_user的接口 实现通过根据学号查询用户</span><br><span class="line">完成增加用户的方法</span><br></pre></td></tr></table></figure><h3 id="控制层"><a href="#控制层" class="headerlink" title="控制层"></a>控制层</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">接受来着web的user对象</span><br><span class="line">检查用户是否合法</span><br><span class="line">对密码明文进行加密</span><br><span class="line">将数据写入服务层并返回</span><br></pre></td></tr></table></figure><h3 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">实现加密工具md5</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;建表&quot;&gt;&lt;a href=&quot;#建表&quot; class=&quot;headerlink&quot; title=&quot;建表&quot;&gt;&lt;/a&gt;建表&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span </summary>
+      
+    
+    
+    
+    <category term="demo" scheme="https://nly-xiaoyu.github.io.git/categories/demo/"/>
+    
+    
+    <category term="library" scheme="https://nly-xiaoyu.github.io.git/tags/library/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>github及工具的使用</title>
     <link href="https://nly-xiaoyu.github.io.git/2021/09/26/github/"/>
     <id>https://nly-xiaoyu.github.io.git/2021/09/26/github/</id>
     <published>2021-09-26T08:01:14.165Z</published>
-    <updated>2021-09-26T08:40:37.565Z</updated>
+    <updated>2021-09-26T13:42:28.459Z</updated>
     
-    <content type="html"><![CDATA[<hr><p>title: 关于github及其相关工具的使用<br>categories:</p><ul><li>github<br>tags:</li><li>node tool<br>toc: true # 是否启用内容索引</li></ul><h2 id="代码仓库的建立"><a href="#代码仓库的建立" class="headerlink" title="代码仓库的建立"></a>代码仓库的建立</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">进入github 建立一个新的repository</span><br><span class="line">在项目区选择一个空白的文件夹</span><br><span class="line">在文件夹中clone该仓库</span><br><span class="line">在文件夹下新建文件夹创建项目 或者 将项目代码转移到该文件夹下()</span><br></pre></td></tr></table></figure><p>##代码提交</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="代码仓库的建立"><a href="#代码仓库的建立" class="headerlink" title="代码仓库的建立"></a>代码仓库的建立</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">进入github 建立一个新的repository</span><br><span class="line">在项目区选择一个空白的文件夹</span><br><span class="line">在文件夹中clone该仓库</span><br><span class="line">在文件夹下新建文件夹创建项目 或者 将项目代码转移到该文件夹下()</span><br></pre></td></tr></table></figure><p>##代码提交</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;hr&gt;
-&lt;p&gt;title: 关于github及其相关工具的使用&lt;br&gt;categories:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;github&lt;br&gt;tags:&lt;/li&gt;
-&lt;li&gt;node tool&lt;br&gt;toc: true # 是否启用内容索引&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;代</summary>
+    <summary type="html">&lt;h2 id=&quot;代码仓库的建立&quot;&gt;&lt;a href=&quot;#代码仓库的建立&quot; class=&quot;headerlink&quot; title=&quot;代码仓库的建立&quot;&gt;&lt;/a&gt;代码仓库的建立&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=</summary>
       
     
     
     
+    <category term="github" scheme="https://nly-xiaoyu.github.io.git/categories/github/"/>
+    
+    
+    <category term="node tool" scheme="https://nly-xiaoyu.github.io.git/tags/node-tool/"/>
     
   </entry>
   
