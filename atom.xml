@@ -6,7 +6,7 @@
   <link href="https://nly-xiaoyu.github.io.git/atom.xml" rel="self"/>
   
   <link href="https://nly-xiaoyu.github.io.git/"/>
-  <updated>2021-07-16T03:00:56.392Z</updated>
+  <updated>2021-09-26T08:40:37.565Z</updated>
   <id>https://nly-xiaoyu.github.io.git/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title></title>
+    <link href="https://nly-xiaoyu.github.io.git/2021/09/26/github/"/>
+    <id>https://nly-xiaoyu.github.io.git/2021/09/26/github/</id>
+    <published>2021-09-26T08:01:14.165Z</published>
+    <updated>2021-09-26T08:40:37.565Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: 关于github及其相关工具的使用<br>categories:</p><ul><li>github<br>tags:</li><li>node tool<br>toc: true # 是否启用内容索引</li></ul><h2 id="代码仓库的建立"><a href="#代码仓库的建立" class="headerlink" title="代码仓库的建立"></a>代码仓库的建立</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">进入github 建立一个新的repository</span><br><span class="line">在项目区选择一个空白的文件夹</span><br><span class="line">在文件夹中clone该仓库</span><br><span class="line">在文件夹下新建文件夹创建项目 或者 将项目代码转移到该文件夹下()</span><br></pre></td></tr></table></figure><p>##代码提交</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;title: 关于github及其相关工具的使用&lt;br&gt;categories:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;github&lt;br&gt;tags:&lt;/li&gt;
+&lt;li&gt;node tool&lt;br&gt;toc: true # 是否启用内容索引&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;代</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>hexo学习笔记</title>
     <link href="https://nly-xiaoyu.github.io.git/2021/07/16/hexoNode/"/>
     <id>https://nly-xiaoyu.github.io.git/2021/07/16/hexoNode/</id>
     <published>2021-07-16T02:44:53.725Z</published>
-    <updated>2021-07-16T03:00:56.392Z</updated>
+    <updated>2021-09-26T08:00:34.690Z</updated>
     
     <content type="html"><![CDATA[<h3 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">本地启动: hexo s&#x2F;service -p 端口号</span><br><span class="line">提交至github : hexo d</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -36,7 +62,7 @@
     <category term="hexo" scheme="https://nly-xiaoyu.github.io.git/categories/hexo/"/>
     
     
-    <category term="node" scheme="https://nly-xiaoyu.github.io.git/tags/node/"/>
+    <category term="node tool" scheme="https://nly-xiaoyu.github.io.git/tags/node-tool/"/>
     
   </entry>
   
