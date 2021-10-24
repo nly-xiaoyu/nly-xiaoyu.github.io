@@ -2,7 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://nly-xiaoyu.github.io.git/2021/09/27/librarydesign/</loc>
-    <lastmod>2021-10-20</lastmod>
+    <lastmod>2021-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://nly-xiaoyu.github.io.git/2021/03/07/hello-world/</loc>
+    <lastmod>2021-10-24</lastmod>
   </url>
   <url>
     <loc>https://nly-xiaoyu.github.io.git/2021/07/16/hexoNode/</loc>
@@ -13,15 +17,7 @@
     <lastmod>2021-09-27</lastmod>
   </url>
   <url>
-    <loc>https://nly-xiaoyu.github.io.git/2021/09/26/library/</loc>
-    <lastmod>2021-09-27</lastmod>
-  </url>
-  <url>
     <loc>https://nly-xiaoyu.github.io.git/2021/07/16/springStudyNodebook/</loc>
     <lastmod>2021-07-16</lastmod>
-  </url>
-  <url>
-    <loc>https://nly-xiaoyu.github.io.git/2021/03/07/hello-world/</loc>
-    <lastmod>2021-03-10</lastmod>
   </url>
 </urlset> 
